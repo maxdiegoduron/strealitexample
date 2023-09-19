@@ -15,7 +15,7 @@ def load_lottieurl(url):
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
-local_css(r'style\style.css')
+local_css('style//style.css')
 ## Where to find lottie aninmations ----   https://lottiefiles.com/search?q=oil+and+gas&category=animations
 # Load Assets
 lottie_coding =load_lottieurl("https://lottie.host/e7bcaffe-8ade-4a1c-a95f-60bace084a01/c47FULOmKE.json")
