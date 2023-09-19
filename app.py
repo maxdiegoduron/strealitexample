@@ -19,8 +19,8 @@ local_css(r'style\style.css')
 ## Where to find lottie aninmations ----   https://lottiefiles.com/search?q=oil+and+gas&category=animations
 # Load Assets
 lottie_coding =load_lottieurl("https://lottie.host/e7bcaffe-8ade-4a1c-a95f-60bace084a01/c47FULOmKE.json")
-img_bpx_logo = Image.open(r'images\bpxlogo.png')
-img2 = Image.open(r'images\imageoilandgaspng1.png')
+img_bpx_logo = Image.open('images//bpxlogo.png')
+img2 = Image.open('images//imageoilandgaspng1.png')
 
 #header_sections
 with st.container():
